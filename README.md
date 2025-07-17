@@ -1,22 +1,34 @@
-
 # 💡 IR Sensor-based Lighting Automation
 
 This project uses an IR sensor to detect motion and automatically turn lights ON/OFF.
 
-## Features
+## 🚀 Features
 - Motion-based automation using IR sensor
-- Saves energy by turning off lights when no motion is detected
-- Simple and effective for smart home systems
+- Saves electricity when room is unoccupied
+- Simple and useful for smart homes
 
-## Components
+## 🔧 Components
 - Arduino UNO
 - IR Sensor
 - LED
-- Resistors, Breadboard, Wires
+- Breadboard, Resistors
 
-## Connections
-- IR sensor OUT → Pin 2
-- LED → Pin 13
+## ⚙ Circuit Connections
+- IR Sensor OUT → Arduino Pin 2
+- LED + Resistor → Arduino Pin 13 (with GND)
 
-## Code
-Upload `ir_sensor_automation.ino` to Arduino using Arduino IDE.
+## 🧠 How It Works
+When motion is detected, the LED turns ON.  
+If no motion is detected, the LED turns OFF automatically.
+
+## 🛠 Upload Instructions
+1. Open Arduino IDE  
+2. Paste code from ir_sensor_automation.ino  
+3. Connect board → Upload code → Done!
+
+## 📷 Output Example
+Motion Detected - Light ON No Motion - Light OFF
+
+## ✅ Learning Outcome
+- Simple automation logic using digital sensors
+- Real-time response with Arduino
